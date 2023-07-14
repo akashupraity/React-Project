@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "conract-submission-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/conractSubmission/ConractSubmissionWebPart.js",
+          "manifest": "./src/webparts/conractSubmission/ConractSubmissionWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ConractSubmissionWebPartStrings": "lib/webparts/conractSubmission/loc/{locale}.js"
+  }
+}
